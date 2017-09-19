@@ -1,0 +1,29 @@
+/* 
+    Document   : onewoorks
+    Created on : Oct 31, 2014, 3:18:51 PM
+    Author     : irwanibrahim
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#invoice-container {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 900px;
+    padding: 20px;
+    top:10px;
+    background-color: white;
+    overflow-y: hidden;
+    -webkit-box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1);
+    border: 1px solid #E5E4E2 ;
+}
+.list-inline li { list-style: none; display: inline;}
+.invoice-line { border-bottom: 2px solid #EBF4FA; }
+.invoice-footer-box-depan { width: 10px; background-color: #4EE2EC; line-height: 30px; }
+.invoice-footer-bg { padding-left: 20px; background-color: #EBF4FA; line-height: 30px; font-weight: bold; }
+.invoice-amount-box { background-color: #B7CEEC; color:#fff; height: 80px;}
+.font-size-11em { font-size: 1.1em;}
+.font-size-14em { font-size: 2.6em; font-family: 'Open Sans Condensed', sans-serif; letter-spacing: 0.1em;}
+
